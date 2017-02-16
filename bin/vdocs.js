@@ -4,6 +4,12 @@ const args = process.argv.slice(2);
 const Insert = require('../documentation/insert');
 const Usage = require('../documentation/usage');
 const Movement = require('../documentation/movements');
+const Editing = require('../documentation/editing');
+const VisualMode = require('../documentation/visualmode');
+const CutPaste = require('../documentation/cutpaste');
+const Exiting = require('../documentation/exiting');
+const Search = require('../documentation/search');
+const Files = require('../documentation/files');
 const ansi = require('ansi');
 const cursor = ansi(process.stdout);
 
@@ -20,6 +26,30 @@ switch(arg) {
         break;
     case '-movement':
 	Movement();
+	process.exit();
+	break;
+    case '-editing':
+	Editing();
+	process.exit();
+	break;
+    case '-visual':
+	VisualMode();
+	process.exit();
+	break;
+    case '-cutpaste': 
+	CutPaste();
+	process.exit();
+	break;
+    case '-exiting':
+	Exiting();
+	process.exit();
+	break;
+    case '-search':
+	Search();
+	process.exit();
+	break;
+    case '-files':
+	Files();
 	process.exit();
 	break;
     case '':
