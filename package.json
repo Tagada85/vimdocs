@@ -1,6 +1,6 @@
 {
   "name": "vimdocs",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "VIM documentation accessible from the command line",
   "keywords": [],
   "author": "Damien Cosset <dcossetfreelance@gmail.com>",

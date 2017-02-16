@@ -3,7 +3,7 @@
 
   VIM documentation accessible from the command line
 
-  ##Get started
+## Get started
 
     npm install -g vimdocs
 
