@@ -36,7 +36,7 @@ switch(arg) {
 	VisualMode();
 	process.exit();
 	break;
-    case '-cutpaste':
+    case '-cutpaste': 
 	CutPaste();
 	process.exit();
 	break;
