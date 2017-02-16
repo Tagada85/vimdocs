@@ -36,7 +36,7 @@ switch(arg) {
 	VisualMode();
 	process.exit();
 	break;
-    case '-cutpaste': 
+    case '-cutpaste':
 	CutPaste();
 	process.exit();
 	break;
@@ -52,13 +52,9 @@ switch(arg) {
 	Files();
 	process.exit();
 	break;
-    case '':
-        console.log('You need to enter a command');
-        process.exit();
-        break;
     default:
         console.log('This command is not supported by vdocs');
-        console.log('Use vdocs --keys to see a list of commands')
+        console.log('Use vdocs -h to see a list of commands')
         process.exit();
         break;
 }
