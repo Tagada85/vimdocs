@@ -17,6 +17,12 @@ const Usage = function(){
 	console.log('-v --version  :  Display the application\'s version');
 	console.log('-insert  :  Show shortcuts about the VIM insert mode');
 	console.log('-movement  :  Show shortcuts to move the cursor inside VIM');
+	console.log('-search  :  Show shortcuts to search and replace patterns');
+	console.log('-visual  :  Show shortcuts to interact with the visual mode');
+	console.log('-exiting  :  Show shortcuts to save and exit files');
+	console.log('-files  :  Show shortcuts to work with multiples files');
+	console.log('-cutpaste  :  Show shortcuts to cut and paste text in VIM');
+	console.log('-editing  :  Show shortcuts to edit files in VIM');
 
 		
 }

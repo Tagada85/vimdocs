@@ -1,29 +1,20 @@
 {
   "name": "vimdocs",
   "version": "0.0.1",
-  "description": "Vim Shortcuts Helper",
+  "description": "VIM documentation accessible from the command line",
+  "keywords": [],
   "author": "Damien Cosset <dcossetfreelance@gmail.com>",
-  "engines": {
-    "node": "*"
-  },
-  "bin": {
-    "vdocs": "./bin/vdocs.js"
-  },
-  "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Tagada85/vimdocs.git"
+    "url": "git://github.com/vdocs/vimdocs.git"
   },
-  "keywords": [
-    "vim",
-    "docs"
-  ],
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Tagada85/vimdocs/issues"
-  },
-  "homepage": "https://github.com/Tagada85/vimdocs#readme",
   "dependencies": {
+    "ansi": "^0.3.1",
     "shelljs": "^0.7.6"
-  }
+  },
+  "devDependencies": {
+    "mocha": "*",
+    "should": "*"
+  },
+  "main": "index"
 }
